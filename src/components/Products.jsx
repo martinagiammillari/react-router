@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-const Home = () => {
+const Products = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -43,4 +43,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Products;

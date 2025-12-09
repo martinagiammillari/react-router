@@ -1,4 +1,4 @@
-export default function About() {
+export default function Home() {
   return (
     <>
      <div className="container py-5 text-center">
