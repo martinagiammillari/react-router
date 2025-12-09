@@ -4,10 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from "./components/Home"
-import About from "./components/About"
-import Products from "./components/Products"
-import DefaultLayout from './components/DefaultLayout'
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Products from "./pages/Products"
+import DefaultLayout from './layout/DefaultLayout'
 
 
 
