@@ -8,6 +8,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Products from "./pages/Products"
 import DefaultLayout from './layout/DefaultLayout'
+import SingleProduct from './pages/SingleProduct'
 
 
 
@@ -24,6 +25,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/About' element={<About />} />
             <Route path='/Products' element={<Products />} />
+            <Route path='/Products/:id' element={<SingleProduct/>}/>
           </Route>
         </Routes>
 
